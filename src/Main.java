@@ -9,5 +9,9 @@ public class Main {
         doggo.makeSound();
         catto.makeSound();
 
+        doggo.showMood(true);
+        doggo.showMood(false);
+        catto.showMood(true);
+        catto.showMood(false);
     }
 }
