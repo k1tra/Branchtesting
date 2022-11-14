@@ -3,6 +3,10 @@ package Animal;
 public abstract class Animal {
     private String name;
 
-    public void makeSound(){
-    }
+    public abstract void makeSound();
+
+    public abstract boolean eatMe(String foodType);
+
+    public abstract void showMood(boolean mood);
+
 }
